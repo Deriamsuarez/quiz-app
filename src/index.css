@@ -6,3 +6,30 @@
 * {
   font-family: 'Poppins', sans-serif;
 }
+
+#drawing_canvas {
+  position: absolute;
+  margin: auto;
+  width: 512px;
+  height: 350px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.progress {
+  height: 10px;
+  background-color: #ddd;
+  border-radius: 5px;
+}
+
+.progress::-webkit-progress-bar {
+  background-color: #ddd;
+  border-radius: 5px;
+}
+
+.progress::-webkit-progress-value {
+  background-color: #007bff;
+  border-radius: 5px;
+}
